@@ -82,6 +82,9 @@ def thread_parse(file_path):
                'text': texts[i]}
               for i in range(min(len(texts),len(users),len(times)))]
 
+    print 'Conversation is between ' + str(len(set(users))) + ' people:'
+    for item in set(users):
+        print item
     # Pickle the messages
     with open('./input/group_chat.pkl', 'w') as f:
         dump(master, f)

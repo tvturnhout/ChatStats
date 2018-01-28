@@ -1,16 +1,48 @@
-# fb-analysis
+# ChatStats
 
-_Conor O'Riordan_, _Apr 2017_
+##### This is a repo for helping to analyse Facebook groupchats:
+
+![](https://github.com/tvturnhout/chatstats/blob/master/examples/example1.png)
 
 
-##### A set of tools for parsing and analysing Facebook group chats.
+This package will show some cool statistics for your Facebook groupchats.
 
-![](https://github.com/conor-or/fb-analysis/blob/master/examples/three_examples.png)
+##Requirements:
 
-___
+Python 2.7
 
-This simple Python package will allow you to fully analyse your Facebook group chats! Some basic analysis features are provided but the tools are there for you to analyse the data however you like. 
+To install a fresh environment through Anaconda:
 
-Some examples of plots this program can produce are on [the project page](https://conor-or.github.io/fb-analysis/). To get started with using fb-analysis yourself, check out the [getting started guide](https://conor-or.github.io/fb-analysis/getting-started). There is also [documentation](https://conor-or.github.io/fb-analysis/documentation) for most of the methods in the script.
+Run following commands:
+```sh
+$ conda create -n py27 python=2.7 anaconda
+$ activate py27
+```
+# How to obtain chatlogs from Facebook
 
-If you come up with anything cool or have any questions please [send me an email](mailto:c.oriordan@outlook.com).
+Download your facebook chatlog, you can find it in your Facebook general account settings right here:
+![N|Solid](https://i.imgur.com/LrVWagZ.png)
+
+
+You will find multiple html files with all your chatlogs. You can open them in a browser to look for the one you want to analyse.
+Alternatively you could go to the group in messenger and copy the group-id there:
+
+https://www.messenger.com/t/GROUPID
+
+# Getting started:
+
+Once you have located your groupchat file.html use the following commands in the terminal:
+
+Run following commands:
+```sh
+$ git clone https://github.com/tvturnhout/ChatStats
+$ cd ChatStats
+$ python main.py /path/to/html/file.html -all
+
+```
+Under the ./plot folder you will find the different plots.
+
+# Getting started:
+
+All credits go to conor-or, this is merely a wrapper to make the library work on European time formats.
+
