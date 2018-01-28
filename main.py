@@ -550,16 +550,16 @@ if __name__ == '__main__':
 
     groupchat = messages_load()
 
-    if '-all' in sys.argv:
-        print 'Performing all analysis...'
-        groupchat.time_plot()
-        groupchat.time_plot_user(groupchat.users)
-        groupchat.matrix_plot()
-        groupchat.daily_plot()
-        groupchat.daily_plot(names=groupchat.users)
-        groupchat.weekly_plot()
-        groupchat.message_length_plot()
-        groupchat.word_length_plot()
-        print ''
-        print 'Group Stats Summary:'
-        groupchat.message_rank()
+    
+    print 'Performing all analysis...'
+    groupchat.time_plot()
+    groupchat.time_plot_user(groupchat.users)
+    groupchat.matrix_plot()
+    groupchat.daily_plot()
+    groupchat.daily_plot(names=groupchat.users)
+    groupchat.weekly_plot()
+    groupchat.message_length_plot()
+    groupchat.word_length_plot()
+    print ''
+    print 'Group Stats Summary:'
+    groupchat.message_rank()
