@@ -31,14 +31,13 @@ https://www.messenger.com/t/COPY_THIS_NUMBER
 
 Once you have located your groupchat file.html use the following commands in the terminal:
 
-Run following commands:
 ```sh
 git clone https://github.com/tvturnhout/ChatStats
 cd ChatStats
 python main.py /path/to/html/file.html
 
 ```
-Under the ./plot folder you will find the different plots.
+You can see a short summary in the terminal and under the ./plot folder you will now find the different plots.
 
 All credits go to conor-or, this is merely a wrapper to make the library work on European time formats.
 
