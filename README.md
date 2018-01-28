@@ -1,19 +1,17 @@
 # ChatStats
 
-##### This is a repo for helping to analyse Facebook groupchats:
+##### This is a repo for helping to analyse Facebook groupchats
 
 ![](https://github.com/tvturnhout/chatstats/blob/master/examples/example1.png)
 
 
 This package will show some cool statistics for your Facebook groupchats.
 
-##Requirements:
+#Requirements:
 
 Python 2.7
 
-To install a fresh environment through Anaconda:
-
-Run following commands:
+To install a fresh environment through Anaconda run following commands:
 ```sh
 $ conda create -n py27 python=2.7 anaconda
 $ activate py27
@@ -41,8 +39,6 @@ $ python main.py /path/to/html/file.html -all
 
 ```
 Under the ./plot folder you will find the different plots.
-
-# Getting started:
 
 All credits go to conor-or, this is merely a wrapper to make the library work on European time formats.
 
