@@ -35,7 +35,7 @@ Run following commands:
 ```sh
 git clone https://github.com/tvturnhout/ChatStats
 cd ChatStats
-python main.py /path/to/html/file.html -all
+python main.py /path/to/html/file.html
 
 ```
 Under the ./plot folder you will find the different plots.
