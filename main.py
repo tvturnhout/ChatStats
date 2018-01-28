@@ -560,3 +560,6 @@ if __name__ == '__main__':
         groupchat.weekly_plot()
         groupchat.message_length_plot()
         groupchat.word_length_plot()
+        print ''
+        print 'Group Stats Summary:'
+        groupchat.message_rank()
