@@ -7,7 +7,7 @@
 
 This package will show some cool statistics for your Facebook groupchats.
 
-# equirements:
+# Requirements:
 
 Python 2.7
 
