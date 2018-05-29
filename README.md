@@ -21,7 +21,6 @@ activate py27
 Download your facebook chatlog, you can find it in your Facebook general account settings right here:
 ![N|Solid](https://i.imgur.com/LrVWagZ.png)
 
-
 You will find multiple html files with all your chatlogs. You can open them in a browser to look for the one you want to analyse.
 Alternatively you could go to the group in messenger and copy the group-id there:
 
