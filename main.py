@@ -14,7 +14,6 @@ plt.style.use('ggplot')
 rcParams['figure.figsize'] = (13, 8)
 rcParams['font.family'] = 'monospace'
 
-
 class GroupChat:
 
     def __init__(self, master_list):
