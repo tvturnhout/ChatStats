@@ -29,7 +29,6 @@ https://www.messenger.com/t/COPY_THIS_NUMBER
 # Getting started:
 
 Once you have located your groupchat file.html use the following commands in the terminal:
-
 ```sh
 git clone https://github.com/tvturnhout/ChatStats
 cd ChatStats
